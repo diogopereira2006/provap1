@@ -1,0 +1,227 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+
+  
+body, html{
+   min-width:95%;   
+}
+html{
+  scroll-behavior: smooth;
+}
+.imagem{
+    border-radius: 50%;
+    width: 15%;
+    margin-left: 5%;
+
+}
+
+.tudo{
+    width: 101%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    margin-left: -10px;
+    margin-top: -7px;
+}
+#sub{
+    margin-left: -17%;
+    margin-top: 10px;
+    font-family: "Fascinate Inline" ;
+    font-size: 40px;
+    width: 100%;
+    color: aliceblue;
+}
+
+.titulo{
+  text-align: center;
+  font-size: 70px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 600;
+
+}
+h1{
+  text-decoration: underline rgb(255, 0, 0);
+}
+.sidepanel {
+    height: 250px; 
+    width: 0;
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 60px;
+    transition: 0.5s; 
+    margin-top: 80px;
+  }
+  
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+
+  .gemaum{
+    width: 100%;
+  }
+  #gemaum{
+    width: 60%;
+    margin-top: 30px;
+    margin: 30px;
+  }
+  .container{
+    text-align: center;
+    background-color: #f1f1f1;
+    width: 20%;
+    border-radius: 5%;
+    display: block;
+    margin: 4px;
+  }
+  .container button{
+    margin: 5px;
+    padding: 10px 50px;
+    font-size: 30px;
+    border-radius: 5px;
+    border:solid #3aed09;
+    cursor: pointer;
+    font-family: 'verdana';
+  }
+  .container button:hover{
+    transition: 0.4s;
+    background-color: #64a352;
+    color: white;
+  }
+  .container p{
+    font-size: 50px;
+    margin-top: -50px;
+    font-weight:bold ;
+  
+  }
+  .flex{
+    display: flex;
+    margin: 10%;
+    flex-wrap:wrap;
+    margin-top: 4%;
+  }
+  #gemas{
+    font-size: 60px;
+    font-family: 'verdana';
+    margin: 10px;
+    text-decoration: underline #cbed09;
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+  /* Pacotes raros */
+  .container .sem{
+    font-size: 25px;
+    color: red;
+    text-decoration: line-through;
+  }
+  .container .preco{
+    margin-top: 10px;
+  }
+  #shely{
+    margin-top: -30px;
+  }
+  .container .rosa{
+    margin-top: 50px;
+  }
+  .container .spyke{
+    margin-left: -33px;
+  }
+  .container #preco{
+    margin-top: -70px;
+  }
+  .container .passeplus{
+    margin-top: -70px;
+  }
+form{
+  background-color: rgba(0, 0, 0, 0.8);
+  position:fixed;
+  padding: 5px 40px 20px;
+  width: 20%;
+  margin-top: 10%;
+  border-radius: 10px;
+  margin-left: 36%;
+  display: none ;
+}
+.login{
+  cursor: pointer;
+}
+form input{
+  width: 100%;
+  padding: 10px 10px;
+  border: solid rgb(221, 221, 221);
+  outline: none;
+  border-radius: 10px;
+  margin: 0px 0px 10px;
+}
+form h1{
+  color: white;
+  text-decoration: underline rgb(141, 141, 241);
+  text-align: center;
+  font-family: 'verdana';
+}
+.btn-button{
+  width: 50%;
+  margin-left: 25%;
+  cursor: pointer;
+  font-size: 20px;
+}
+form input:focus{
+  border:solid #3aed09 3px;
+}
+#sair{
+  color: white;
+  font-size: 45px;
+  margin-left: 90%;
+}
+#sair:hover{
+  color:rgb(141, 141, 241);
+  transition: 0.4s;
+  cursor: pointer;
+
+}
+.eventos{
+  border: 1px solid greenyellow;
+  text-align: center;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+th, td{
+  border: 1px solid rgb(15, 211, 236);
+  border-collapse: collapse;
+}
+tr{
+  font-size: 20px;
+}
+
+  
